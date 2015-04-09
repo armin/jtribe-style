@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		8C91051A1AD63C9300F3047B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9105191AD63C9300F3047B /* main.m */; };
 		8C91051D1AD63C9300F3047B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C91051C1AD63C9300F3047B /* AppDelegate.m */; };
-		8C9105201AD63C9300F3047B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C91051F1AD63C9300F3047B /* ViewController.m */; };
+		8C9105201AD63C9300F3047B /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C91051F1AD63C9300F3047B /* PersonViewController.m */; };
 		8C9105231AD63C9300F3047B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9105211AD63C9300F3047B /* Main.storyboard */; };
 		8C9105251AD63C9300F3047B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9105241AD63C9300F3047B /* Images.xcassets */; };
 		8C9105281AD63C9300F3047B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9105261AD63C9300F3047B /* LaunchScreen.xib */; };
 		8C9105341AD63C9300F3047B /* jtribe_styleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9105331AD63C9300F3047B /* jtribe_styleTests.m */; };
+		8C9105411AD63E5200F3047B /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9105401AD63E5200F3047B /* PersonViewModel.m */; };
+		8C9105421AD63E5200F3047B /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9105401AD63E5200F3047B /* PersonViewModel.m */; };
+		8C9105451AD6404700F3047B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9105441AD6404700F3047B /* Person.m */; };
+		8C9105461AD6404700F3047B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9105441AD6404700F3047B /* Person.m */; };
+		8C91054A1AD6540700F3047B /* BadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9105491AD6540700F3047B /* BadViewController.m */; };
+		8C91054E1AD654F600F3047B /* PersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C91054D1AD654F600F3047B /* PersonController.m */; };
+		8C91054F1AD654F600F3047B /* PersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C91054D1AD654F600F3047B /* PersonController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +39,23 @@
 		8C9105191AD63C9300F3047B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C91051B1AD63C9300F3047B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C91051C1AD63C9300F3047B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8C91051E1AD63C9300F3047B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C91051F1AD63C9300F3047B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C91051E1AD63C9300F3047B /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		8C91051F1AD63C9300F3047B /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
 		8C9105221AD63C9300F3047B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C9105241AD63C9300F3047B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8C9105271AD63C9300F3047B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8C91052D1AD63C9300F3047B /* jtribe-styleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jtribe-styleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9105321AD63C9300F3047B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C9105331AD63C9300F3047B /* jtribe_styleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jtribe_styleTests.m; sourceTree = "<group>"; };
+		8C91053F1AD63E5200F3047B /* PersonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewModel.h; sourceTree = "<group>"; };
+		8C9105401AD63E5200F3047B /* PersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
+		8C9105431AD6404700F3047B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8C9105441AD6404700F3047B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8C9105471AD6420D00F3047B /* StyleDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StyleDelegate.h; sourceTree = "<group>"; };
+		8C9105481AD6540700F3047B /* BadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadViewController.h; sourceTree = "<group>"; };
+		8C9105491AD6540700F3047B /* BadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadViewController.m; sourceTree = "<group>"; };
+		8C91054C1AD654F600F3047B /* PersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonController.h; sourceTree = "<group>"; };
+		8C91054D1AD654F600F3047B /* PersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +97,12 @@
 		8C9105161AD63C9300F3047B /* jtribe-style */ = {
 			isa = PBXGroup;
 			children = (
+				8C9105501AD6551D00F3047B /* View Models */,
+				8C91054B1AD654D500F3047B /* Controllers */,
+				8C91053E1AD63E3E00F3047B /* Models */,
+				8C91053D1AD63D6000F3047B /* View Controllers */,
 				8C91051B1AD63C9300F3047B /* AppDelegate.h */,
 				8C91051C1AD63C9300F3047B /* AppDelegate.m */,
-				8C91051E1AD63C9300F3047B /* ViewController.h */,
-				8C91051F1AD63C9300F3047B /* ViewController.m */,
 				8C9105211AD63C9300F3047B /* Main.storyboard */,
 				8C9105241AD63C9300F3047B /* Images.xcassets */,
 				8C9105261AD63C9300F3047B /* LaunchScreen.xib */,
@@ -117,6 +135,45 @@
 				8C9105321AD63C9300F3047B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C91053D1AD63D6000F3047B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C91051E1AD63C9300F3047B /* PersonViewController.h */,
+				8C91051F1AD63C9300F3047B /* PersonViewController.m */,
+				8C9105471AD6420D00F3047B /* StyleDelegate.h */,
+				8C9105481AD6540700F3047B /* BadViewController.h */,
+				8C9105491AD6540700F3047B /* BadViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8C91053E1AD63E3E00F3047B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C9105431AD6404700F3047B /* Person.h */,
+				8C9105441AD6404700F3047B /* Person.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8C91054B1AD654D500F3047B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C91054C1AD654F600F3047B /* PersonController.h */,
+				8C91054D1AD654F600F3047B /* PersonController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8C9105501AD6551D00F3047B /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C91053F1AD63E5200F3047B /* PersonViewModel.h */,
+				8C9105401AD63E5200F3047B /* PersonViewModel.m */,
+			);
+			name = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C9105201AD63C9300F3047B /* ViewController.m in Sources */,
+				8C9105411AD63E5200F3047B /* PersonViewModel.m in Sources */,
+				8C9105201AD63C9300F3047B /* PersonViewController.m in Sources */,
+				8C91054A1AD6540700F3047B /* BadViewController.m in Sources */,
+				8C9105451AD6404700F3047B /* Person.m in Sources */,
 				8C91051D1AD63C9300F3047B /* AppDelegate.m in Sources */,
 				8C91051A1AD63C9300F3047B /* main.m in Sources */,
+				8C91054E1AD654F600F3047B /* PersonController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C9105461AD6404700F3047B /* Person.m in Sources */,
+				8C91054F1AD654F600F3047B /* PersonController.m in Sources */,
+				8C9105421AD63E5200F3047B /* PersonViewModel.m in Sources */,
 				8C9105341AD63C9300F3047B /* jtribe_styleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

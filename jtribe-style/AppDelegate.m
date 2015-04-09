@@ -12,6 +12,8 @@
 
 @end
 
+// STYLE: Keep the app delegate clean and lean. Use a RootViewController if you need to handle general routing logic across the app. (ask a jtribe developer about RootViewControllers and how to use them)
+
 @implementation AppDelegate
 
 
