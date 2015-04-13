@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BadViewController : UIViewController
+@interface BadViewController : UIViewController {
+  NSString *myIVar; // STYLE: There should not be any reason to use iVars. Use properties instead.
+}
+
 
 @end

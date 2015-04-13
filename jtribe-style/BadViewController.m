@@ -8,8 +8,11 @@
 
 #import "BadViewController.h"
 
-@implementation BadViewController {
-  NSString *myIVar; // STYLE: There should not be any reason to use iVars. Use properties instead.
-}
+@implementation BadViewController
 
+- (void) doSomething
+{
+  // STYLE: use an private property instead
+  myIVar = @"blah";
+}
 @end
