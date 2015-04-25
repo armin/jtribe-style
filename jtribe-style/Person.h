@@ -9,11 +9,13 @@
 #import <Foundation/Foundation.h>
 
 // STYLE: enums should start with k then the Name of the type. kPersonGender...
-typedef enum {
+typedef enum
+{
   kPersonGenderMale,
   kPersonGenderFemale,
   kPersonGenderUnspecified
-} PersonGender;
+}
+PersonGender;
 
 // STYLE: models are named simple. Person is the model for a person. No need to use JTRPerson.
 @interface Person : NSObject

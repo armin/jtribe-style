@@ -21,6 +21,7 @@
 		8C91054A1AD6540700F3047B /* BadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9105491AD6540700F3047B /* BadViewController.m */; };
 		8C91054E1AD654F600F3047B /* PersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C91054D1AD654F600F3047B /* PersonController.m */; };
 		8C91054F1AD654F600F3047B /* PersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C91054D1AD654F600F3047B /* PersonController.m */; };
+		8C919F7C1AEB9331002E7472 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8C919F7B1AEB9331002E7472 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		8C9105491AD6540700F3047B /* BadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadViewController.m; sourceTree = "<group>"; };
 		8C91054C1AD654F600F3047B /* PersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonController.h; sourceTree = "<group>"; };
 		8C91054D1AD654F600F3047B /* PersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonController.m; sourceTree = "<group>"; };
+		8C919F7B1AEB9331002E7472 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		8C91050B1AD63C9300F3047B = {
 			isa = PBXGroup;
 			children = (
+				8C919F7B1AEB9331002E7472 /* README.md */,
 				8C9105161AD63C9300F3047B /* jtribe-style */,
 				8C9105301AD63C9300F3047B /* jtribe-styleTests */,
 				8C9105151AD63C9300F3047B /* Products */,
@@ -282,6 +285,7 @@
 				8C9105451AD6404700F3047B /* Person.m in Sources */,
 				8C91051D1AD63C9300F3047B /* AppDelegate.m in Sources */,
 				8C91051A1AD63C9300F3047B /* main.m in Sources */,
+				8C919F7C1AEB9331002E7472 /* README.md in Sources */,
 				8C91054E1AD654F600F3047B /* PersonController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +480,7 @@
 				8C9105391AD63C9300F3047B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C91053A1AD63C9300F3047B /* Build configuration list for PBXNativeTarget "jtribe-styleTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +489,7 @@
 				8C91053C1AD63C9300F3047B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

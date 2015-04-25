@@ -12,7 +12,7 @@
 
 
 - (instancetype) initWithPerson:(Person*)person
-{ // STYLE: If possible put { in a new line
+{ // STYLE: If possible put { in a new line (Allman Style)
   self = [super init];
   
   if (self) {
